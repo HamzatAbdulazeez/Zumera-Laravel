@@ -990,7 +990,8 @@ p.blog-content {
 .section-teams {
     margin-bottom: 4em;
 }
-.section-teams a{
+
+.section-teams a {
     text-decoration: none;
 }
 
@@ -2432,32 +2433,37 @@ button {
 .allowimg {
     width: 100%;
 }
-.Realtor
-{
-    padding:0px;
+
+.Realtor {
+    padding: 0px;
 }
-.Realtor .images img{
+
+.Realtor .images img {
     width: 100%;
     display: block;
     margin: auto;
     height: 650px;
     object-fit: cover;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
 }
+
 @media (max-width:768px) {
-    .Realtor .images img{
+    .Realtor .images img {
         display: none;
     }
 }
-.Realtor form h2{
+
+.Realtor form h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     padding: 50px 0 0 0;
 }
+
 .Realtor form {
     padding: 0px 30px;
 }
+
 .Realtor form label {
     font-size: 15px;
     padding: 0 0 10px 0;
@@ -2514,7 +2520,7 @@ button {
     color: #000;
 }
 
-.Realtor form a{
+.Realtor form a {
     text-decoration: none;
 }
 
@@ -2528,6 +2534,7 @@ button {
     font-size: 13px;
     color: #fff;
 }
+
 .Realtor form button:hover {
     border: 1px solid #fff;
     background-color: #e31515;
@@ -2538,61 +2545,72 @@ button {
     font-size: 13px;
     color: #fff;
 }
+
 /* Addiction */
 
-.Addiction
-{
+.Addiction {
     padding: 0;
 }
-.Addiction .bacc{
+
+.Addiction .bacc {
     background-image: url(https://res.cloudinary.com/morshudlhgmo/image/upload/v1684504161/Zumera/register_ejepeq.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 100px 0px;
-    box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
 }
-.Addiction .bacc .images img{
+
+.Addiction .bacc .images img {
     display: block;
     margin: auto;
     padding: 0 0 250px 0;
 }
-.Addiction .bacc .images h6{
+
+.Addiction .bacc .images h6 {
     text-align: center;
     color: #fff;
     padding: 0 40px 250px 40px;
 }
+
 @media (max-width:768px) {
-    .Addiction .bacc .images img{
+    .Addiction .bacc .images img {
         display: block;
         margin: auto;
         padding: 0 0 50px 0;
     }
-    .Addiction .bacc .images h6{
+
+    .Addiction .bacc .images h6 {
         text-align: center;
         color: #fff;
         padding: 0 40px 20px 40px;
     }
-    .Addiction .bacc .images p{
+
+    .Addiction .bacc .images p {
         display: none;
     }
-    .Addiction .bacc{
+
+    .Addiction .bacc {
         padding: 80px 0px 50px 0;
-        box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.719);
     }
 }
-.Addiction .bacc .images p{
+
+.Addiction .bacc .images p {
     color: #fff;
     text-align: center;
 }
-.Addiction form h2{
+
+.Addiction form h2 {
     font-size: 20px;
     font-weight: 400;
     text-align: center;
     padding: 50px 0 20px 0;
 }
+
 .Addiction form {
     padding: 0px 30px;
 }
+
 .Addiction form label {
     font-size: 15px;
     padding: 0 0 10px 0;
@@ -2638,59 +2656,72 @@ button {
 .Addiction form input::placeholder {
     color: #E2DFDF;
 }
-.Addiction a{
+
+.Addiction a {
     text-decoration: none;
 }
-.Addiction a button:hover{
+
+.Addiction a button:hover {
     background-color: red;
     color: #fff;
     border: none;
 }
+
 /* Project */
-.Project{
+.Project {
     padding: 100px 0px;
 }
-.Project .text-center{
+
+.Project .text-center {
     padding: 0 0 50px 0;
 }
-.Project .handle .images img{
+
+.Project .handle .images img {
     width: 100%;
     display: block;
     margin: auto;
 }
+
 /* Layer */
-.Layer{
+.Layer {
     padding: 0px 0 0px 0;
     margin-bottom: 100px;
     background-color: #FFDFE0;
 }
-.Layer .cover img{
+
+.Layer .cover img {
     display: block;
     margin: auto;
     width: 100%;
 }
-.Layer .coming img{
+
+.Layer .coming img {
     display: inline-block;
     width: 45px;
     margin: auto;
 }
-.Layer .coming  span{
+
+.Layer .coming span {
     font-size: 14px;
 }
+
 .Layer .coming {
     margin-bottom: 25px;
 }
-.Layer h4{
+
+.Layer h4 {
     padding: 150px 0 50px 0;
     font-weight: 400;
 }
-.Layer button{
+
+.Layer button {
     margin-top: 60px;
     border-radius: 5px;
     background-color: #FFDFE0;
     border: 1px solid #000;
 }
-.Layer button:hover{
+
+.Layer button:hover {
     background-color: #C73538;
     border: none;
     color: #fff;
