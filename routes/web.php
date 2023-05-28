@@ -80,3 +80,11 @@ Route::get('/realtor', function () {
 Route::get('/register', function () {
     return view('register');
 })->name('register');
+
+Route::get('/leadership-details', function () {
+    return view('leadership-details');
+})->name('leadership-details');
+
+Route::get('/terms', function () {
+    return view('terms');
+})->name('terms');

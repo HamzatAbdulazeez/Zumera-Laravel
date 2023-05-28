@@ -42,11 +42,12 @@
           />
           <p class="help">HELP & SUPPORT</p>
           <p>
-            <a href="#">Terms & Conditions</a>
+            <a href="{{route('terms')}}">Terms & Conditions</a>
           </p>
           <p>
             <a href="{{route('privacy')}}">Privacy Policy</a>
           </p>
+
           <p>
             <a href="{{route('contact')}}">Contact Us</a>
           </p>

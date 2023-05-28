@@ -990,6 +990,9 @@ p.blog-content {
 .section-teams {
     margin-bottom: 4em;
 }
+.section-teams a{
+    text-decoration: none;
+}
 
 .section-teams .col-md-4 {
     margin-top: 5em;
@@ -1000,6 +1003,11 @@ p.blog-content {
 }
 
 .section-teams .content .icon a {
+    color: #000;
+    padding: 0 3px;
+}
+
+.all .icon a {
     color: #000;
     padding: 0 3px;
 }
@@ -2637,4 +2645,53 @@ button {
     background-color: red;
     color: #fff;
     border: none;
+}
+/* Project */
+.Project{
+    padding: 100px 0px;
+}
+.Project .text-center{
+    padding: 0 0 50px 0;
+}
+.Project .handle .images img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+/* Layer */
+.Layer{
+    padding: 0px 0 0px 0;
+    margin-bottom: 100px;
+    background-color: #FFDFE0;
+}
+.Layer .cover img{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.Layer .coming img{
+    display: inline-block;
+    width: 45px;
+    margin: auto;
+}
+.Layer .coming  span{
+    font-size: 14px;
+}
+.Layer .coming {
+    margin-bottom: 25px;
+}
+.Layer h4{
+    padding: 150px 0 50px 0;
+    font-weight: 400;
+}
+.Layer button{
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: #FFDFE0;
+    border: 1px solid #000;
+}
+.Layer button:hover{
+    background-color: #C73538;
+    border: none;
+    color: #fff;
 }
